@@ -54,13 +54,13 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9E990BC1302F4A06B9EC704E1C80AB2A }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1A289F5C842D4A1E8B3524ADAE170A2C }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A18B5B31063B4C2A9B756F664E98F8FD }}
-
+      
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'api-training-devcloud'
           slot-name: 'Production'
-          package: ./.net-app
+          package: ./myapp
 
           
