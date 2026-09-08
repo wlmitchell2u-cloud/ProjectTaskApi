@@ -1,0 +1,89 @@
+﻿using AutoMapper;
+using EnterpriseTaskManager.Application.DTOs.Tags;
+using EnterpriseTaskManager.Application.DTOs.Tasks;
+using EnterpriseTaskManager.Domain.Entities;
+using EnterpriseTaskManager.Infrastructure.Persistence;
+
+namespace EnterpriseTaskManager.Application.Services.Interfaces;
+public interface ITagService
+{
+    Task<List<TagDto>> GetAllAsync(using AutoMapper;
+using EnterpriseTaskManager.Infrastructure.Persistence;
+using EnterpriseTaskManager.Application.DTOs.Tasks;
+using EnterpriseTaskManager.Domain.Entities;
+using EnterpriseTaskManager.Application.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
+namespace EnterpriseTaskManager.Application.Services.Implementations;
+
+public class TaskService : ITaskService
+{
+    private readonly AppDbContext _db;
+    private readonly IMapper _mapper;
+
+    public TaskService(AppDbContext db, IMapper mapper)
+    {
+        _db = db;
+        _mapper = mapper;
+    }
+
+    public async Task<List<TaskItemDto>> GetAllAsync(CancellationToken cancellationToken)
+    {
+        var tasks = await _db.TaskItems
+            .AsNoTracking()
+            .Include(t => t.Project)
+            .Include(t => t.AssignedToUser)
+            .ToListAsync();
+        return _mapper.Map<List<TaskItemDto>>(tasks);
+    }
+
+    public async Task<TaskItemDto?> GetByIdAsync(int id, CancellationToken cancellationToken)
+    {
+        var task = await _db.TaskItems
+            .AsNoTracking()
+            .Include(t => t.Project)
+            .Include(t => t.AssignedToUser)
+            .FirstOrDefaultAsync(t => t.Id == id);
+
+        return task == null ? null : _mapper.Map<TaskItemDto>(task);
+    }
+
+    public async Task<TaskItemDto> CreateAsync(CreateTaskItemDto dto, CancellationToken cancellationToken)
+    {
+        var task = _mapper.Map<TaskItem>(dto);
+
+        _db.TaskItems.Add(task);
+        await _db.SaveChangesAsync();
+
+        return _mapper.Map<TaskItemDto>(task);
+    }
+
+    public async Task<TaskItemDto?> UpdateAsync(int id, CreateTaskItemDto dto, CancellationToken cancellationToken)
+    {
+        var task = await _db.TaskItems.FindAsync(id);
+        if (task == null) return null;
+
+        _mapper.Map(dto, task);
+        await _db.SaveChangesAsync();
+
+        //return dto
+        return _mapper.Map<TaskItemDto>(task);
+    }
+
+    public async Task<bool> DeleteAsync(int id, CancellationToken cancellationToken)
+    {
+        var task = await _db.TaskItems.FindAsync(id);
+        if (task == null) return false;
+
+        _db.TaskItems.Remove(task);
+        await _db.SaveChangesAsync();
+
+        return true;
+    }
+}
+);
+    Task<TagDto?> GetByIdAsync(int id);
+    Task<TagDto> CreateAsync(CreateTagDto dto);
+    Task<TagDto?> UpdateAsync(int id, CreateTagDto dto);
+    Task<bool> DeleteAsync(int id);
+}

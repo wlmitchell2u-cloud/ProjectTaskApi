@@ -1,0 +1,15 @@
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\bin\Debug\net10.0\EnterpriseTaskManager.Application.deps.json
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\bin\Debug\net10.0\EnterpriseTaskManager.Application.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\bin\Debug\net10.0\EnterpriseTaskManager.Application.pdb
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\bin\Debug\net10.0\EnterpriseTaskManager.Domain.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\bin\Debug\net10.0\EnterpriseTaskManager.Domain.pdb
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.csproj.AssemblyReference.cache
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.AssemblyInfoInputs.cache
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.AssemblyInfo.cs
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\Enterpri.34E2450E.Up2Date
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\refint\EnterpriseTaskManager.Application.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\EnterpriseTaskManager.Application.pdb
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Application\obj\Debug\net10.0\ref\EnterpriseTaskManager.Application.dll

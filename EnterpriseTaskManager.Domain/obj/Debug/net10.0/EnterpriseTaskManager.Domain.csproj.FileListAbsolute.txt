@@ -1,0 +1,11 @@
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\bin\Debug\net10.0\EnterpriseTaskManager.Domain.deps.json
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\bin\Debug\net10.0\EnterpriseTaskManager.Domain.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\bin\Debug\net10.0\EnterpriseTaskManager.Domain.pdb
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.AssemblyInfoInputs.cache
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.AssemblyInfo.cs
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\refint\EnterpriseTaskManager.Domain.dll
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\EnterpriseTaskManager.Domain.pdb
+C:\Users\loren\source\repos\EnterpriseTaskManager\EnterpriseTaskManager.Domain\obj\Debug\net10.0\ref\EnterpriseTaskManager.Domain.dll

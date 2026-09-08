@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="EnterpriseTaskManager.Api/EnterpriseTaskManager.Api.csproj" />
+  <Project Path="EnterpriseTaskManager.Application/EnterpriseTaskManager.Application.csproj" />
+  <Project Path="EnterpriseTaskManager.Domain/EnterpriseTaskManager.Domain.csproj" />
+  <Project Path="EnterpriseTaskManager.Infrastructure/EnterpriseTaskManager.Infrastructure.csproj" />
+  <Project Path="EnterpriseTaskManager.Tests/EnterpriseTaskManager.Tests.csproj" Id="1513c7d9-ceee-4523-810e-4ead2123c88f" />
+</Solution>

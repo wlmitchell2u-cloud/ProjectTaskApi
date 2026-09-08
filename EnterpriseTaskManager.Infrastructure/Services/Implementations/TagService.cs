@@ -1,0 +1,64 @@
+using AutoMapper;
+using EnterpriseTaskManager.Infrastructure.Persistence;
+using EnterpriseTaskManager.Application.DTOs.Tags;
+using EnterpriseTaskManager.Domain.Entities;
+using EnterpriseTaskManager.Application.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
+namespace EnterpriseTaskManager.Infrastructure.Services.Implementations;
+
+public class TagService : ITagService
+{
+   private readonly AppDbContext _db;
+   private readonly IMapper _mapper;
+    public TagService(AppDbContext db, IMapper mapper)
+    {
+        _db = db;
+        _mapper = mapper;
+    }
+    public async Task<List<TagDto>> GetAllAsync(CancellationToken cancellationToken)
+    {
+        var tasks = await _db.Tags
+            .AsNoTracking()
+            .ToListAsync(cancellationToken);
+
+        return _mapper.Map<List<TagDto>>(tasks);
+    }
+    public async Task<TagDto?> GetByIdAsync(int id, CancellationToken cancellationToken)
+    { 
+        var task = await _db.Tags
+            .AsNoTracking()
+            .FirstOrDefaultAsync(t => t.Id == id, cancellationToken);
+
+        return task == null ? null : _mapper.Map<TagDto?>(task);
+    }
+    public async Task<TagDto> CreateAsync(CreateTagDto dto, CancellationToken cancellationToken)
+    {
+        var tag = _mapper.Map<Tag>(dto);
+        _db.Tags.Add(tag);
+
+        await _db.SaveChangesAsync(cancellationToken);
+
+        return _mapper.Map<TagDto>(tag);
+    }
+    public async Task<TagDto?> UpdateAsync(int id, CreateTagDto dto, CancellationToken cancellationToken)
+    {
+        var tag = await _db.Tags.FindAsync(new object?[] { id }, cancellationToken);
+        if (tag == null) return null;
+
+        _mapper.Map(dto, tag);
+        await _db.SaveChangesAsync(cancellationToken);
+
+        return _mapper.Map<TagDto>(tag);
+    }
+    public async Task<bool> DeleteAsync(int id, CancellationToken cancellationToken)
+    {
+        var tag = await _db.Tags.FindAsync(new object?[] { id }, cancellationToken);
+        if (tag == null) return false;
+
+        _db.Tags.Remove(tag);
+        await _db.SaveChangesAsync(cancellationToken);
+
+        return true;
+    }
+}

@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1513C7D9-CEEE-4523-810E-4EAD2123C88F}|EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.tests\\enterprisetaskmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1513C7D9-CEEE-4523-810E-4EAD2123C88F}|EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj|solutionrelative:enterprisetaskmanager.tests\\enterprisetaskmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\enterprisetaskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\enterprisetaskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.infrastructure\\enterprisetaskmanager.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|solutionrelative:enterprisetaskmanager.infrastructure\\enterprisetaskmanager.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.domain\\enterprisetaskmanager.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|solutionrelative:enterprisetaskmanager.domain\\enterprisetaskmanager.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\enterprisetaskmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\enterprisetaskmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1513C7D9-CEEE-4523-810E-4EAD2123C88F}|EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.tests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1513C7D9-CEEE-4523-810E-4EAD2123C88F}|EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj|solutionrelative:enterprisetaskmanager.tests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|solutionrelative:enterprisetaskmanager.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\hubs\\projecthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\hubs\\projecthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\dtos\\tasks\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\dtos\\tasks\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\dtos\\projects\\createprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\dtos\\projects\\createprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\dtos\\projects\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\dtos\\projects\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.domain\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|solutionrelative:enterprisetaskmanager.domain\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|solutionrelative:enterprisetaskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.domain\\enums\\taskitemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF27378-2FE2-135A-A34E-3C91DA1C6E42}|EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj|solutionrelative:enterprisetaskmanager.domain\\enums\\taskitemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.infrastructure\\services\\implementations\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|solutionrelative:enterprisetaskmanager.infrastructure\\services\\implementations\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\dtos\\tasks\\createtaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\dtos\\tasks\\createtaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\validators\\createtaskitemdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\validators\\createtaskitemdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F218F9-5582-7059-1EA4-565338D510F4}|EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj|solutionrelative:enterprisetaskmanager.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.infrastructure\\services\\implementations\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|solutionrelative:enterprisetaskmanager.infrastructure\\services\\implementations\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.application\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C88091-CC6E-24BC-4003-30407F4B8F7A}|EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj|solutionrelative:enterprisetaskmanager.application\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.infrastructure\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|solutionrelative:enterprisetaskmanager.infrastructure\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|c:\\users\\loren\\source\\repos\\enterprisetaskmanager\\enterprisetaskmanager.infrastructure\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67AC9B4-44C8-B1B9-BAF7-0A651B5F35C8}|EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj|solutionrelative:enterprisetaskmanager.infrastructure\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 184,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnterpriseTaskManager.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj",
+              "RelativeToolTip": "EnterpriseTaskManager.Infrastructure\\EnterpriseTaskManager.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T01:58:15.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnterpriseTaskManager.Domain",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj",
+              "RelativeToolTip": "EnterpriseTaskManager.Domain\\EnterpriseTaskManager.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T01:58:10.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnterpriseTaskManager.Application",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\EnterpriseTaskManager.Application.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T01:57:41.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnterpriseTaskManager.Tests",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj",
+              "RelativeToolTip": "EnterpriseTaskManager.Tests\\EnterpriseTaskManager.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T01:53:45.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Seeding\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Infrastructure\\Seeding\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Seeding\\DatabaseSeeder.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Infrastructure\\Seeding\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T22:09:23.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\appsettings.json",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-04T21:57:20.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\ProjectService.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\ProjectService.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\ProjectService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAewDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:42:27.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnterpriseTaskManager.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\EnterpriseTaskManager.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T20:42:12.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T23:37:01.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Program.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBJwHoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:11:24.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Tests\\Controllers\\ProjectsControllerTests.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Tests\\Controllers\\ProjectsControllerTests.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Tests\\Controllers\\ProjectsControllerTests.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Tests\\Controllers\\ProjectsControllerTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:03:02.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectHub.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Hubs\\ProjectHub.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\Hubs\\ProjectHub.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Hubs\\ProjectHub.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\Hubs\\ProjectHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T21:19:47.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:00:33.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Domain\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:12:33.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateTaskItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Tasks\\CreateTaskItemDto.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\DTOs\\Tasks\\CreateTaskItemDto.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Tasks\\CreateTaskItemDto.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\DTOs\\Tasks\\CreateTaskItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:58:16.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Tasks\\TaskItemDto.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\DTOs\\Tasks\\TaskItemDto.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Tasks\\TaskItemDto.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\DTOs\\Tasks\\TaskItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:57:28.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Projects\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\DTOs\\Projects\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Projects\\ProjectDto.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\DTOs\\Projects\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:15:32.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T20:18:08.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Projects\\CreateProjectDto.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\DTOs\\Projects\\CreateProjectDto.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\DTOs\\Projects\\CreateProjectDto.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\DTOs\\Projects\\CreateProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:15:21.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateTaskItemDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\Validators\\CreateTaskItemDtoValidator.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\Validators\\CreateTaskItemDtoValidator.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\Validators\\CreateTaskItemDtoValidator.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\Validators\\CreateTaskItemDtoValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:03:18.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskItemStatus.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Enums\\TaskItemStatus.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Domain\\Enums\\TaskItemStatus.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Enums\\TaskItemStatus.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Domain\\Enums\\TaskItemStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T22:31:48.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Enums\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Domain\\Enums\\TaskPriority.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Domain\\Enums\\TaskPriority.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Domain\\Enums\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T22:37:24.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBQwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T23:00:12.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\TagService.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\TagService.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\TagService.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Infrastructure\\Services\\Implementations\\TagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:42:34.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\Auth\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Application\\Auth\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Application\\Auth\\JwtSettings.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Application\\Auth\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T21:08:47.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "EnterpriseTaskManager.Infrastructure\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\EnterpriseTaskManager\\EnterpriseTaskManager.Infrastructure\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "EnterpriseTaskManager.Infrastructure\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T23:16:11.84Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 46,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 46,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

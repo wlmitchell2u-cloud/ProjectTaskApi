@@ -1,0 +1,74 @@
+﻿using AutoMapper;
+using EnterpriseTaskManager.Infrastructure.Persistence;
+using EnterpriseTaskManager.Application.DTOs.Users;
+using EnterpriseTaskManager.Domain.Entities;
+using EnterpriseTaskManager.Application.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
+namespace EnterpriseTaskManager.Application.Services.Implementations;
+
+public class UserService : IUserService
+{
+    private readonly AppDbContext _db;  
+    private readonly IMapper _mapper;
+
+    public UserService(AppDbContext db, IMapper mapper)
+    {
+        _db = db;
+        _mapper = mapper;
+    }
+
+    public async Task<List<UserDto>> GetAllAsync(CancellationToken cancellationToken)
+    {
+        var users = await _db.Users
+            .AsNoTracking()
+            .ToListAsync(cancellationToken);
+        return _mapper.Map<List<UserDto>>(users);
+    }
+
+    public async Task<UserDto?> GetByIdAsync(int id, CancellationToken cancellationToken)
+    {
+        var user = await _db.Users
+            .AsNoTracking()
+            .FirstOrDefaultAsync(u => u.Id == id, cancellationToken);
+
+        return user == null ? null : _mapper.Map<UserDto>(user);
+    }
+
+    public async Task<UserDto> CreateAsync(CreateUserDto dto, CancellationToken cancellationToken)
+    {
+        var user = _mapper.Map<User>(dto);
+
+        _db.Users.Add(user);
+        await _db.SaveChangesAsync(cancellationToken);
+
+        return _mapper.Map<UserDto>(user);
+    }
+
+    public async Task<UserDto?> UpdateAsync(int id, CreateUserDto dto, CancellationToken cancellationToken)
+    {
+        var user = await _db.Users.FindAsync(new object?[] { id }, cancellationToken);
+        if (user == null)
+            return null;
+
+        _mapper.Map(dto, user);
+
+        await _db.SaveChangesAsync(cancellationToken);
+
+        return _mapper.Map<UserDto>(user);
+    }
+
+    public async Task<bool> DeleteAsync(int id, CancellationToken cancellationToken)
+    {
+        var user = await _db.Users.FindAsync(new object?[] { id }, cancellationToken);
+
+        //see if user was found
+        if (user == null)
+            return false;
+
+        //remove user from database
+        _db.Users.Remove(user);
+        await _db.SaveChangesAsync(cancellationToken);
+        return true;
+    }
+}

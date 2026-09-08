@@ -1,0 +1,11 @@
+﻿
+namespace EnterpriseTaskManager.Domain.Enums
+{
+    public enum ProjectStatus
+    {
+        Active,
+        OnHold,
+        Completed,
+        Archived
+    }
+}

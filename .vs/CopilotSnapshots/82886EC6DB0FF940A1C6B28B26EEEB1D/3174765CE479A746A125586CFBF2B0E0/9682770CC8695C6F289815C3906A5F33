@@ -1,0 +1,69 @@
+﻿using EnterpriseTaskManager.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace EnterpriseTaskManager.Infrastructure.Persistence
+{
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+        : base(options)
+        {
+        }
+
+        public DbSet<User> Users => Set<User>();
+        public DbSet<TaskItem> TaskItems => Set<TaskItem>();
+        public DbSet<TaskComment> TaskComments => Set<TaskComment>();
+        public DbSet<Tag> Tags => Set<Tag>();
+        public DbSet<TaskTag> TaskTags => Set<TaskTag>();
+        public DbSet<ActivityLog> ActivityLogs => Set<ActivityLog>();
+        public DbSet<Project> Projects => Set<Project>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<TaskTag>()
+                .HasKey(tt => new { tt.TaskItemId, tt.TagId });
+
+            modelBuilder.Entity<TaskTag>()
+                .HasOne(tt => tt.TaskItem)
+                .WithMany(t => t.TaskTags)
+                .HasForeignKey(tt => tt.TaskItemId);
+
+            modelBuilder.Entity<TaskTag>()
+                .HasOne(tt => tt.Tag)
+                .WithMany(t => t.TaskTags)
+                .HasForeignKey(tt => tt.TagId);
+
+            modelBuilder.Entity<TaskComment>()
+                .HasOne(tc => tc.TaskItem)
+                .WithMany(t => t.Comments)
+                .HasForeignKey(tc => tc.TaskItemId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<TaskComment>()
+                .HasOne(tc => tc.Author)
+                .WithMany()
+                .HasForeignKey(tc => tc.AuthorId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<TaskItem>()
+                .HasOne(t => t.Project)
+                .WithMany(p => p.Tasks)
+                .HasForeignKey(t => t.ProjectId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Project>()
+                .HasOne(p => p.Owner)
+                .WithMany(u => u.OwnedProjects)
+                .HasForeignKey(p => p.OwnerId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<TaskItem>()
+                .HasOne(t => t.AssignedToUser)
+                .WithMany(u => u.AssignedTasks)
+                .HasForeignKey(t => t.AssignedToUserId)
+                .OnDelete(DeleteBehavior.SetNull);
+        }
+    }
+}
