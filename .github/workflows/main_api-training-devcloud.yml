@@ -21,13 +21,13 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: '10.0.x'
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
       - name: dotnet publish    
-        run: dotnet publish -c Release -o ./myapp --framework net8.0 --runtime win-x64 --self-contained false
+        run: dotnet publish -c Release -o ./myapp --framework net10.0 --runtime win-x64 --self-contained false
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
