@@ -27,7 +27,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish    
-        run: dotnet publish -c Release -o ./myapp --runtime win-x64 --self-contained false
+        run: dotnet publish -c Release -o ./myapp --framework net8.0 --runtime win-x64 --self-contained false
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
