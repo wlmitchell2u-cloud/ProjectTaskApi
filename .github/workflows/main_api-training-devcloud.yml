@@ -68,6 +68,6 @@ jobs:
         with:
           app-name: 'api-training-devcloud'
           slot-name: 'Production'
-          package: .
+          package: ./.net-app
 
           
